@@ -1,6 +1,7 @@
 ﻿using Past.Protocol;
 using Past.Protocol.IO;
 using Past.Protocol.Messages;
+using Past.Protocol.Types;
 using Past.Utils;
 using System;
 
@@ -33,7 +34,7 @@ namespace Past.Network.Login
 
         private void Login_OnClientReceivedData(byte[] data)
         {
-            
+            ConsoleUtils.Write(ConsoleUtils.type.RECEIV, "{0} ...", Functions.ByteArrayToString(data));
         }
 
         public void Send(NetworkMessage message)
