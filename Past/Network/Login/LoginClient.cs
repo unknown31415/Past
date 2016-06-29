@@ -33,6 +33,7 @@ namespace Past.Network.Login
 
         private void Login_OnClientReceivedData(byte[] data)
         {
+            //read the incoming packet
             ConsoleUtils.Write(ConsoleUtils.type.RECEIV, "{0} ...", Functions.ByteArrayToString(data));
         }
 
