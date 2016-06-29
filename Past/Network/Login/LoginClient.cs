@@ -1,7 +1,6 @@
 ﻿using Past.Protocol;
 using Past.Protocol.IO;
 using Past.Protocol.Messages;
-using Past.Protocol.Types;
 using Past.Utils;
 using System;
 
