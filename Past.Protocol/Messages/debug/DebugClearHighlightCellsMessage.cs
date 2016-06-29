@@ -4,11 +4,11 @@ using System;
 
 namespace Past.Protocol.Messages
 {
-	public class DebugClearHighlightCellsMessage : NetworkMessage
-	{
+    public class DebugClearHighlightCellsMessage : NetworkMessage
+    {
         public override uint Id
         {
-        	get { return 2002; }
+            get { return 2002; }
         }
         public DebugClearHighlightCellsMessage()
         {
@@ -18,6 +18,6 @@ namespace Past.Protocol.Messages
         }
         public override void Deserialize(IDataReader reader)
         {
-		}
-	}
+        }
+    }
 }
